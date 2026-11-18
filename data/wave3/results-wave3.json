@@ -1,0 +1,810 @@
+{
+ "frame": "FRAME-wave3.md",
+ "engine": "openai",
+ "engine_label": "ChatGPT only (no Perplexity key on 18 Nov 2026)",
+ "models": [
+  "gpt-5.6-luna"
+ ],
+ "extractor": "gpt-5-nano",
+ "runs": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "questions": 20,
+ "answers": 200,
+ "first_sent_sgt": "2026-11-18 01:47:16",
+ "last_received_sgt": "2026-11-18 01:55:52",
+ "web_search_calls": 349,
+ "citations": 1116,
+ "cost_usd": {
+  "answers": 4.209,
+  "coding": 0.0332,
+  "total": 4.242
+ },
+ "trades": {
+  "property": {
+   "label": "Property agents",
+   "provider": "property agent",
+   "providers": "property agents",
+   "keyword": "real estate agent singapore",
+   "answers": 50,
+   "answers_naming_no_business": 5,
+   "answers_with_refusal": 0,
+   "answers_not_completed": 0,
+   "leader": {
+    "name": "PropNex",
+    "answers_naming": 33
+   },
+   "tied_for_first": [
+    "PropNex"
+   ],
+   "top": [
+    {
+     "name": "PropNex",
+     "answers_naming": 33,
+     "share_of_answers": 66.0
+    },
+    {
+     "name": "Huttons Asia",
+     "answers_naming": 29,
+     "share_of_answers": 58.0
+    },
+    {
+     "name": "ERA Realty",
+     "answers_naming": 25,
+     "share_of_answers": 50.0
+    },
+    {
+     "name": "OrangeTee & Tie",
+     "answers_naming": 25,
+     "share_of_answers": 50.0
+    },
+    {
+     "name": "Knight Frank",
+     "answers_naming": 16,
+     "share_of_answers": 32.0
+    },
+    {
+     "name": "Savills",
+     "answers_naming": 11,
+     "share_of_answers": 22.0
+    },
+    {
+     "name": "SRI",
+     "answers_naming": 10,
+     "share_of_answers": 20.0
+    },
+    {
+     "name": "ERA",
+     "answers_naming": 7,
+     "share_of_answers": 14.0
+    },
+    {
+     "name": "HomeUP",
+     "answers_naming": 7,
+     "share_of_answers": 14.0
+    },
+    {
+     "name": "CBRE",
+     "answers_naming": 5,
+     "share_of_answers": 10.0
+    }
+   ],
+   "distinct_businesses": 37,
+   "mentions": 213,
+   "top3_share_of_mentions": {
+    "n": 87,
+    "of": 213,
+    "pct": 40.8
+   },
+   "named_in_one_answer": {
+    "n": 18,
+    "of": 37,
+    "pct": 48.6
+   },
+   "leader_contains_rule": {
+    "name": "PropNex",
+    "answers_naming": 36
+   },
+   "names_dropped_by_check": 0,
+   "top3_with_ties": [
+    {
+     "name": "PropNex",
+     "answers_naming": 33
+    },
+    {
+     "name": "Huttons Asia",
+     "answers_naming": 29
+    },
+    {
+     "name": "ERA Realty",
+     "answers_naming": 25
+    },
+    {
+     "name": "OrangeTee & Tie",
+     "answers_naming": 25
+    }
+   ]
+  },
+  "restaurant": {
+   "label": "Cafes and restaurants",
+   "provider": "restaurant",
+   "providers": "restaurants",
+   "keyword": "restaurant singapore",
+   "answers": 50,
+   "answers_naming_no_business": 0,
+   "answers_with_refusal": 0,
+   "answers_not_completed": 0,
+   "leader": {
+    "name": "Candlenut",
+    "answers_naming": 26
+   },
+   "tied_for_first": [
+    "Candlenut"
+   ],
+   "top": [
+    {
+     "name": "Candlenut",
+     "answers_naming": 26,
+     "share_of_answers": 52.0
+    },
+    {
+     "name": "Burnt Ends",
+     "answers_naming": 25,
+     "share_of_answers": 50.0
+    },
+    {
+     "name": "Odette",
+     "answers_naming": 22,
+     "share_of_answers": 44.0
+    },
+    {
+     "name": "Labyrinth",
+     "answers_naming": 20,
+     "share_of_answers": 40.0
+    },
+    {
+     "name": "Maxwell Food Centre",
+     "answers_naming": 20,
+     "share_of_answers": 40.0
+    },
+    {
+     "name": "Hill Street Tai Hwa Pork Noodle",
+     "answers_naming": 18,
+     "share_of_answers": 36.0
+    },
+    {
+     "name": "Tian Tian Hainanese Chicken Rice",
+     "answers_naming": 18,
+     "share_of_answers": 36.0
+    },
+    {
+     "name": "Les Amis",
+     "answers_naming": 16,
+     "share_of_answers": 32.0
+    },
+    {
+     "name": "Seroja",
+     "answers_naming": 16,
+     "share_of_answers": 32.0
+    },
+    {
+     "name": "Thevar",
+     "answers_naming": 16,
+     "share_of_answers": 32.0
+    }
+   ],
+   "distinct_businesses": 92,
+   "mentions": 418,
+   "top3_share_of_mentions": {
+    "n": 73,
+    "of": 418,
+    "pct": 17.5
+   },
+   "named_in_one_answer": {
+    "n": 46,
+    "of": 92,
+    "pct": 50.0
+   },
+   "leader_contains_rule": {
+    "name": "Candlenut",
+    "answers_naming": 26
+   },
+   "names_dropped_by_check": 1,
+   "top3_with_ties": [
+    {
+     "name": "Candlenut",
+     "answers_naming": 26
+    },
+    {
+     "name": "Burnt Ends",
+     "answers_naming": 25
+    },
+    {
+     "name": "Odette",
+     "answers_naming": 22
+    }
+   ]
+  },
+  "fnb": {
+   "label": "F&B suppliers",
+   "provider": "food supplier",
+   "providers": "food suppliers",
+   "keyword": "food supplier singapore",
+   "answers": 50,
+   "answers_naming_no_business": 0,
+   "answers_with_refusal": 0,
+   "answers_not_completed": 0,
+   "leader": {
+    "name": "Wilmar Distribution",
+    "answers_naming": 27
+   },
+   "tied_for_first": [
+    "Wilmar Distribution"
+   ],
+   "top": [
+    {
+     "name": "Wilmar Distribution",
+     "answers_naming": 27,
+     "share_of_answers": 54.0
+    },
+    {
+     "name": "Bidfood Singapore",
+     "answers_naming": 25,
+     "share_of_answers": 50.0
+    },
+    {
+     "name": "Phoon Huat / RedMan",
+     "answers_naming": 20,
+     "share_of_answers": 40.0
+    },
+    {
+     "name": "Culina",
+     "answers_naming": 17,
+     "share_of_answers": 34.0
+    },
+    {
+     "name": "OTS International",
+     "answers_naming": 11,
+     "share_of_answers": 22.0
+    },
+    {
+     "name": "Classic Fine Foods Singapore",
+     "answers_naming": 10,
+     "share_of_answers": 20.0
+    },
+    {
+     "name": "New Deli Food",
+     "answers_naming": 10,
+     "share_of_answers": 20.0
+    },
+    {
+     "name": "Sze Heng Chan Holdings",
+     "answers_naming": 10,
+     "share_of_answers": 20.0
+    },
+    {
+     "name": "Mr Bazaar",
+     "answers_naming": 9,
+     "share_of_answers": 18.0
+    },
+    {
+     "name": "Pasir Panjang Wholesale Centre",
+     "answers_naming": 9,
+     "share_of_answers": 18.0
+    }
+   ],
+   "distinct_businesses": 97,
+   "mentions": 359,
+   "top3_share_of_mentions": {
+    "n": 72,
+    "of": 359,
+    "pct": 20.1
+   },
+   "named_in_one_answer": {
+    "n": 41,
+    "of": 97,
+    "pct": 42.3
+   },
+   "leader_contains_rule": {
+    "name": "Bidfood Singapore",
+    "answers_naming": 27
+   },
+   "names_dropped_by_check": 0,
+   "top3_with_ties": [
+    {
+     "name": "Wilmar Distribution",
+     "answers_naming": 27
+    },
+    {
+     "name": "Bidfood Singapore",
+     "answers_naming": 25
+    },
+    {
+     "name": "Phoon Huat / RedMan",
+     "answers_naming": 20
+    }
+   ]
+  },
+  "gift": {
+   "label": "Corporate gift companies",
+   "provider": "corporate gift supplier",
+   "providers": "corporate gift suppliers",
+   "keyword": "corporate gifts singapore",
+   "answers": 50,
+   "answers_naming_no_business": 0,
+   "answers_with_refusal": 0,
+   "answers_not_completed": 0,
+   "leader": {
+    "name": "Noel Gifts",
+    "answers_naming": 35
+   },
+   "tied_for_first": [
+    "Noel Gifts"
+   ],
+   "top": [
+    {
+     "name": "Noel Gifts",
+     "answers_naming": 35,
+     "share_of_answers": 70.0
+    },
+    {
+     "name": "Aquaholic Gifts",
+     "answers_naming": 25,
+     "share_of_answers": 50.0
+    },
+    {
+     "name": "Nanyang Gifts",
+     "answers_naming": 24,
+     "share_of_answers": 48.0
+    },
+    {
+     "name": "The Gift Empire",
+     "answers_naming": 20,
+     "share_of_answers": 40.0
+    },
+    {
+     "name": "ShopGifts",
+     "answers_naming": 10,
+     "share_of_answers": 20.0
+    },
+    {
+     "name": "TheGiftShop.SG",
+     "answers_naming": 10,
+     "share_of_answers": 20.0
+    },
+    {
+     "name": "Gift Market",
+     "answers_naming": 9,
+     "share_of_answers": 18.0
+    },
+    {
+     "name": "AbrandZ",
+     "answers_naming": 8,
+     "share_of_answers": 16.0
+    },
+    {
+     "name": "MeowPrint",
+     "answers_naming": 8,
+     "share_of_answers": 16.0
+    },
+    {
+     "name": "Giftano",
+     "answers_naming": 7,
+     "share_of_answers": 14.0
+    }
+   ],
+   "distinct_businesses": 61,
+   "mentions": 247,
+   "top3_share_of_mentions": {
+    "n": 84,
+    "of": 247,
+    "pct": 34.0
+   },
+   "named_in_one_answer": {
+    "n": 31,
+    "of": 61,
+    "pct": 50.8
+   },
+   "leader_contains_rule": {
+    "name": "Noel Gifts",
+    "answers_naming": 35
+   },
+   "names_dropped_by_check": 0,
+   "top3_with_ties": [
+    {
+     "name": "Noel Gifts",
+     "answers_naming": 35
+    },
+    {
+     "name": "Aquaholic Gifts",
+     "answers_naming": 25
+    },
+    {
+     "name": "Nanyang Gifts",
+     "answers_naming": 24
+    }
+   ]
+  }
+ },
+ "concentration": {
+  "mentions": 1237,
+  "top3_per_trade": 316,
+  "top3_pct": 25.5,
+  "businesses": 287,
+  "named_in_one_answer": 136,
+  "named_once_pct": 47.4
+ },
+ "first_picks": {
+  "questions": 20,
+  "median_first_pick_share": 0.6,
+  "first_pick_share_distribution": [
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.4,
+   0.5,
+   0.5,
+   0.5,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.7,
+   0.8,
+   0.8,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "median_distinct_first_picks": 3.0,
+  "business_question_pairs_by_share": {
+   "4-6 of 10": 58,
+   "7+ of 10": 57,
+   "1-3 of 10": 306
+  },
+  "pairs_total": 421,
+  "excluded_questions": [],
+  "same_first_pick_every_time": {
+   "n": 5,
+   "of": 20,
+   "pct": 25.0
+  },
+  "first_pick_changed_at_least_once": {
+   "n": 15,
+   "of": 20,
+   "pct": 75.0
+  },
+  "median_most_common_first_pick_of_ten": 6.0,
+  "per_question": [
+   {
+    "qid": "fnb-T1",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Bidfood Singapore"
+    ],
+    "times_first": 6,
+    "different_first_picks": 3
+   },
+   {
+    "qid": "fnb-T2",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Bidfood Singapore"
+    ],
+    "times_first": 10,
+    "different_first_picks": 1
+   },
+   {
+    "qid": "fnb-T3",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Wilmar Distribution"
+    ],
+    "times_first": 5,
+    "different_first_picks": 5
+   },
+   {
+    "qid": "fnb-T4",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "New Deli Food"
+    ],
+    "times_first": 5,
+    "different_first_picks": 5
+   },
+   {
+    "qid": "fnb-T5",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Sze Heng Chan Holdings"
+    ],
+    "times_first": 6,
+    "different_first_picks": 2
+   },
+   {
+    "qid": "gift-T1",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "The Gift Empire"
+    ],
+    "times_first": 7,
+    "different_first_picks": 4
+   },
+   {
+    "qid": "gift-T2",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "The Gift Empire"
+    ],
+    "times_first": 3,
+    "different_first_picks": 7
+   },
+   {
+    "qid": "gift-T3",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "The Gift Empire"
+    ],
+    "times_first": 3,
+    "different_first_picks": 7
+   },
+   {
+    "qid": "gift-T4",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "ShopGifts"
+    ],
+    "times_first": 8,
+    "different_first_picks": 3
+   },
+   {
+    "qid": "gift-T5",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "TheGiftShop.SG"
+    ],
+    "times_first": 10,
+    "different_first_picks": 1
+   },
+   {
+    "qid": "property-T1",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "PropNex"
+    ],
+    "times_first": 8,
+    "different_first_picks": 3
+   },
+   {
+    "qid": "property-T2",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "PropNex"
+    ],
+    "times_first": 10,
+    "different_first_picks": 1
+   },
+   {
+    "qid": "property-T3",
+    "answers_naming_a_business": 5,
+    "most_common_first_picks": [
+     "Council for Estate Agencies (CEA)"
+    ],
+    "times_first": 3,
+    "different_first_picks": 2
+   },
+   {
+    "qid": "property-T4",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "HomeUP",
+     "PropNex"
+    ],
+    "times_first": 3,
+    "different_first_picks": 6
+   },
+   {
+    "qid": "property-T5",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "ERA Realty"
+    ],
+    "times_first": 3,
+    "different_first_picks": 6
+   },
+   {
+    "qid": "restaurant-T1",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Candlenut"
+    ],
+    "times_first": 4,
+    "different_first_picks": 4
+   },
+   {
+    "qid": "restaurant-T2",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Odette"
+    ],
+    "times_first": 10,
+    "different_first_picks": 1
+   },
+   {
+    "qid": "restaurant-T3",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Odette"
+    ],
+    "times_first": 6,
+    "different_first_picks": 4
+   },
+   {
+    "qid": "restaurant-T4",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Maxwell Food Centre"
+    ],
+    "times_first": 10,
+    "different_first_picks": 1
+   },
+   {
+    "qid": "restaurant-T5",
+    "answers_naming_a_business": 10,
+    "most_common_first_picks": [
+     "Casa Vostra at Tampines Mall"
+    ],
+    "times_first": 5,
+    "different_first_picks": 3
+   }
+  ]
+ },
+ "first_pick_share_by_trade": {
+  "all_questions": {
+   "median": 0.6,
+   "questions": 20
+  },
+  "by_trade": {
+   "fnb": {
+    "median": 0.6,
+    "questions": 5
+   },
+   "gift": {
+    "median": 0.7,
+    "questions": 5
+   },
+   "property": {
+    "median": 0.6,
+    "questions": 5
+   },
+   "restaurant": {
+    "median": 0.6,
+    "questions": 5
+   }
+  }
+ },
+ "chatgpt_all_trades": {
+  "trades": 15,
+  "questions_asked": 75,
+  "answers": 750,
+  "questions": 74,
+  "median_first_pick_share": 0.55,
+  "first_pick_share_distribution": [
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.22,
+   0.22,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.3,
+   0.4,
+   0.4,
+   0.4,
+   0.4,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.5,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.6,
+   0.62,
+   0.7,
+   0.7,
+   0.7,
+   0.7,
+   0.7,
+   0.8,
+   0.8,
+   0.8,
+   0.8,
+   0.8,
+   0.8,
+   0.8,
+   0.9,
+   0.9,
+   0.9,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "median_distinct_first_picks": 4.0,
+  "business_question_pairs_by_share": {
+   "1-3 of 10": 1095,
+   "4-6 of 10": 190,
+   "7+ of 10": 166
+  },
+  "pairs_total": 1451,
+  "excluded_questions": [
+   {
+    "qid": "maid-T3",
+    "question": "maid agency singapore",
+    "answers_naming_a_business": 3
+   }
+  ],
+  "same_first_pick_every_time": {
+   "n": 9,
+   "of": 74,
+   "pct": 12.2
+  },
+  "first_pick_changed_at_least_once": {
+   "n": 65,
+   "of": 74,
+   "pct": 87.8
+  },
+  "median_most_common_first_pick_of_ten": 5.0,
+  "first_pick_share_all_questions": {
+   "median": 0.55,
+   "questions": 74
+  }
+ }
+}

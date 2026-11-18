@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Who ChatGPT and Perplexity recommend in Singapore"
+version: 1.1.0
+date-released: 2026-11-18
+authors:
+  - family-names: Vulla
+    given-names: Abhishek
+    affiliation: rankr
+  - family-names: Lee
+    given-names: Abel
+    affiliation: rankr
+license: CC-BY-4.0
+url: "https://rankrhq.com/chatgpt-recommendations-singapore"
+abstract: >-
+  1,300 answers from ChatGPT (OpenAI web search, through the API) and Perplexity (sonar, through the API) to
+  the same five questions about 15 Singapore trades, each question asked ten times: 11 trades asked of both
+  assistants on 5 and 6 October 2026 (1,100 answers) and four of ChatGPT on 18 November 2026 (200 answers),
+  with every business named and every citation.
+keywords:
+  - ChatGPT
+  - Perplexity
+  - AI search
+  - AI recommendations
+  - generative engine optimization
+  - LLM citations
+  - local businesses
+  - Singapore
+repository: "https://github.com/AbhishekVulla/chatgpt-recommendations-singapore"

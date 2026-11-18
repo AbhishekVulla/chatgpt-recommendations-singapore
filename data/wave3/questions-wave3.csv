@@ -1,0 +1,21 @@
+question_id,trade,template,question
+property-T1,property,T1,Can you recommend a good property agent in Singapore?
+property-T2,property,T2,What are the best property agents in Singapore?
+property-T3,property,T3,real estate agent singapore
+property-T4,property,T4,I need an affordable property agent in Singapore. Who should I go to?
+property-T5,property,T5,I live in Tampines. Which property agent near me would you recommend?
+restaurant-T1,restaurant,T1,Can you recommend a good restaurant in Singapore?
+restaurant-T2,restaurant,T2,What are the best restaurants in Singapore?
+restaurant-T3,restaurant,T3,restaurant singapore
+restaurant-T4,restaurant,T4,I need an affordable restaurant in Singapore. Who should I go to?
+restaurant-T5,restaurant,T5,I live in Tampines. Which restaurant near me would you recommend?
+fnb-T1,fnb,T1,Can you recommend a good food supplier in Singapore?
+fnb-T2,fnb,T2,What are the best food suppliers in Singapore?
+fnb-T3,fnb,T3,food supplier singapore
+fnb-T4,fnb,T4,I need an affordable food supplier in Singapore. Who should I go to?
+fnb-T5,fnb,T5,I live in Tampines. Which food supplier near me would you recommend?
+gift-T1,gift,T1,Can you recommend a good corporate gift supplier in Singapore?
+gift-T2,gift,T2,What are the best corporate gift suppliers in Singapore?
+gift-T3,gift,T3,corporate gifts singapore
+gift-T4,gift,T4,I need an affordable corporate gift supplier in Singapore. Who should I go to?
+gift-T5,gift,T5,I live in Tampines. Which corporate gift supplier near me would you recommend?

@@ -1,0 +1,147 @@
+{
+ "runs": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "computed": "2026-10-16",
+ "answers": {
+  "openai": 550,
+  "perplexity": 550
+ },
+ "openai": {
+  "n": 39,
+  "of": 601,
+  "pct": 6.5,
+  "by_trade": {
+   "accounting": {
+    "n": 2,
+    "of": 69,
+    "pct": 2.9
+   },
+   "aesthetic": {
+    "n": 2,
+    "of": 75,
+    "pct": 2.7
+   },
+   "aircon": {
+    "n": 1,
+    "of": 49,
+    "pct": 2.0
+   },
+   "car": {
+    "n": 6,
+    "of": 65,
+    "pct": 9.2
+   },
+   "dental": {
+    "n": 6,
+    "of": 57,
+    "pct": 10.5
+   },
+   "interior": {
+    "n": 3,
+    "of": 79,
+    "pct": 3.8
+   },
+   "lawyer": {
+    "n": 2,
+    "of": 26,
+    "pct": 7.7
+   },
+   "maid": {
+    "n": 2,
+    "of": 30,
+    "pct": 6.7
+   },
+   "movers": {
+    "n": 4,
+    "of": 48,
+    "pct": 8.3
+   },
+   "physio": {
+    "n": 7,
+    "of": 57,
+    "pct": 12.3
+   },
+   "tuition": {
+    "n": 4,
+    "of": 46,
+    "pct": 8.7
+   }
+  },
+  "distinct_websites": 535,
+  "distinct_on_page_one": 39
+ },
+ "perplexity": {
+  "n": 46,
+  "of": 459,
+  "pct": 10.0,
+  "by_trade": {
+   "accounting": {
+    "n": 1,
+    "of": 53,
+    "pct": 1.9
+   },
+   "aesthetic": {
+    "n": 4,
+    "of": 43,
+    "pct": 9.3
+   },
+   "aircon": {
+    "n": 6,
+    "of": 39,
+    "pct": 15.4
+   },
+   "car": {
+    "n": 4,
+    "of": 39,
+    "pct": 10.3
+   },
+   "dental": {
+    "n": 4,
+    "of": 44,
+    "pct": 9.1
+   },
+   "interior": {
+    "n": 4,
+    "of": 39,
+    "pct": 10.3
+   },
+   "lawyer": {
+    "n": 4,
+    "of": 34,
+    "pct": 11.8
+   },
+   "maid": {
+    "n": 6,
+    "of": 48,
+    "pct": 12.5
+   },
+   "movers": {
+    "n": 4,
+    "of": 48,
+    "pct": 8.3
+   },
+   "physio": {
+    "n": 4,
+    "of": 31,
+    "pct": 12.9
+   },
+   "tuition": {
+    "n": 5,
+    "of": 41,
+    "pct": 12.2
+   }
+  },
+  "distinct_websites": 344,
+  "distinct_on_page_one": 44
+ }
+}

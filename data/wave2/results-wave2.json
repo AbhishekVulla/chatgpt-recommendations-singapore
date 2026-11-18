@@ -1,0 +1,2741 @@
+{
+ "runs": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "answers": 1100,
+ "engines": {
+  "openai": {
+   "questions": 54,
+   "median_first_pick_share": 0.5,
+   "first_pick_share_distribution": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.22,
+    0.22,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.3,
+    0.4,
+    0.4,
+    0.4,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.62,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.9,
+    0.9,
+    0.9,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_distinct_first_picks": 4.0,
+   "business_question_pairs_by_share": {
+    "1-3 of 10": 789,
+    "4-6 of 10": 132,
+    "7+ of 10": 109
+   },
+   "pairs_total": 1030,
+   "excluded_questions": [
+    {
+     "qid": "maid-T3",
+     "question": "maid agency singapore",
+     "answers_naming_a_business": 3
+    }
+   ],
+   "same_first_pick_every_time": {
+    "n": 4,
+    "of": 54,
+    "pct": 7.4
+   },
+   "first_pick_changed_at_least_once": {
+    "n": 50,
+    "of": 54,
+    "pct": 92.6
+   },
+   "median_most_common_first_pick_of_ten": 5.0,
+   "per_question": [
+    {
+     "qid": "accounting-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Accorp PAC",
+      "RSM Singapore"
+     ],
+     "times_first": 3,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "accounting-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "PwC"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "accounting-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Harvest Accounting"
+     ],
+     "times_first": 6,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "accounting-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Eorenda"
+     ],
+     "times_first": 4,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "accounting-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "CW Business Solutions"
+     ],
+     "times_first": 6,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "aesthetic-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Cutis Medical Laser Clinics"
+     ],
+     "times_first": 2,
+     "different_first_picks": 9
+    },
+    {
+     "qid": "aesthetic-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Cutis Medical Laser Clinics",
+      "IDS Clinic",
+      "National Skin Centre"
+     ],
+     "times_first": 2,
+     "different_first_picks": 7
+    },
+    {
+     "qid": "aesthetic-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "National Skin Centre"
+     ],
+     "times_first": 4,
+     "different_first_picks": 6
+    },
+    {
+     "qid": "aesthetic-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Singapore Aesthetic Centre"
+     ],
+     "times_first": 6,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "aesthetic-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Dr Cindy's Medical Aesthetics"
+     ],
+     "times_first": 6,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "aircon-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "338 Aircon",
+      "LM Brothers Aircond",
+      "Lion City Aircon",
+      "SoCool"
+     ],
+     "times_first": 2,
+     "different_first_picks": 6
+    },
+    {
+     "qid": "aircon-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "SoCool"
+     ],
+     "times_first": 7,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "aircon-T3",
+     "answers_naming_a_business": 9,
+     "most_common_first_picks": [
+      "Billy Aircon",
+      "Cool Aircon",
+      "Natural Cool"
+     ],
+     "times_first": 2,
+     "different_first_picks": 6
+    },
+    {
+     "qid": "aircon-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "StringsSG"
+     ],
+     "times_first": 3,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "aircon-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Twin City Air-Conditioning Engineering"
+     ],
+     "times_first": 6,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "car-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "1 Car Service"
+     ],
+     "times_first": 8,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "car-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "1 Car Service"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "car-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Autobacs Singapore",
+      "Motorist Authorised Workshops"
+     ],
+     "times_first": 4,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "car-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "JPowertrain - Loyang"
+     ],
+     "times_first": 5,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "car-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Foo Brothers Auto",
+      "Tampines Auto Services"
+     ],
+     "times_first": 5,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "dental-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Raffles Dental"
+     ],
+     "times_first": 3,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "dental-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "National Dental Centre Singapore"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "dental-T3",
+     "answers_naming_a_business": 9,
+     "most_common_first_picks": [
+      "Novena Dental Aesthetic Practice",
+      "Raffles Dental"
+     ],
+     "times_first": 2,
+     "different_first_picks": 7
+    },
+    {
+     "qid": "dental-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "SingHealth Polyclinics"
+     ],
+     "times_first": 3,
+     "different_first_picks": 7
+    },
+    {
+     "qid": "dental-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "TSD Dental Group Tampines"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "interior-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Interior Lab"
+     ],
+     "times_first": 3,
+     "different_first_picks": 6
+    },
+    {
+     "qid": "interior-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Peter Tay Studio"
+     ],
+     "times_first": 3,
+     "different_first_picks": 7
+    },
+    {
+     "qid": "interior-T3",
+     "answers_naming_a_business": 6,
+     "most_common_first_picks": [
+      "Eight Design"
+     ],
+     "times_first": 3,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "interior-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Project Direct"
+     ],
+     "times_first": 8,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "interior-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Ciseern",
+      "Forefront Interior"
+     ],
+     "times_first": 2,
+     "different_first_picks": 8
+    },
+    {
+     "qid": "lawyer-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Allen & Gledhill"
+     ],
+     "times_first": 3,
+     "different_first_picks": 6
+    },
+    {
+     "qid": "lawyer-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Allen & Gledhill"
+     ],
+     "times_first": 7,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "lawyer-T3",
+     "answers_naming_a_business": 8,
+     "most_common_first_picks": [
+      "Law Society of Singapore"
+     ],
+     "times_first": 5,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "lawyer-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Pro Bono SG"
+     ],
+     "times_first": 7,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "lawyer-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "PKWA Law",
+      "Victory Law Chambers LLC"
+     ],
+     "times_first": 3,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "maid-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Nation Maid Agency",
+      "Universal Employment Agency"
+     ],
+     "times_first": 3,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "maid-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Active Global Specialised Caregivers",
+      "Island Maids"
+     ],
+     "times_first": 3,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "maid-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Nation Maid Agency"
+     ],
+     "times_first": 5,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "maid-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Nation Maid Agency",
+      "TJM Employment Agency"
+     ],
+     "times_first": 3,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "movers-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Move Move Movers"
+     ],
+     "times_first": 6,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "movers-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Move Move Movers"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "movers-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Move Move Movers"
+     ],
+     "times_first": 5,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "movers-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Cube Movers"
+     ],
+     "times_first": 6,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "movers-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "138 Professional Movers"
+     ],
+     "times_first": 8,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "physio-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Core Concepts"
+     ],
+     "times_first": 5,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "physio-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Core Concepts"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "physio-T3",
+     "answers_naming_a_business": 5,
+     "most_common_first_picks": [
+      "HealthHub",
+      "NTUC Health",
+      "SingHealth Polyclinics",
+      "Singapore General Hospital",
+      "Singapore Physio"
+     ],
+     "times_first": 1,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "physio-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "NTUC Health",
+      "SGH"
+     ],
+     "times_first": 3,
+     "different_first_picks": 6
+    },
+    {
+     "qid": "physio-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Singapore Physio"
+     ],
+     "times_first": 8,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "tuition-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Mind Stretcher"
+     ],
+     "times_first": 6,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "tuition-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Learning Lab"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "tuition-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Learning Lab"
+     ],
+     "times_first": 7,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "tuition-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "CDAC Tuition Programme"
+     ],
+     "times_first": 8,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "tuition-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "AGrader Learning Centre",
+      "Spring Tuition"
+     ],
+     "times_first": 3,
+     "different_first_picks": 6
+    }
+   ]
+  },
+  "perplexity": {
+   "questions": 55,
+   "median_first_pick_share": 0.9,
+   "first_pick_share_distribution": [
+    0.3,
+    0.4,
+    0.43,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.56,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.6,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.7,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "median_distinct_first_picks": 2,
+   "business_question_pairs_by_share": {
+    "7+ of 10": 274,
+    "4-6 of 10": 86,
+    "1-3 of 10": 201
+   },
+   "pairs_total": 561,
+   "excluded_questions": [],
+   "same_first_pick_every_time": {
+    "n": 20,
+    "of": 55,
+    "pct": 36.4
+   },
+   "first_pick_changed_at_least_once": {
+    "n": 35,
+    "of": 55,
+    "pct": 63.6
+   },
+   "median_most_common_first_pick_of_ten": 9,
+   "per_question": [
+    {
+     "qid": "accounting-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "PwC"
+     ],
+     "times_first": 8,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "accounting-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "PwC"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "accounting-T3",
+     "answers_naming_a_business": 7,
+     "most_common_first_picks": [
+      "Sleek"
+     ],
+     "times_first": 3,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "accounting-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Sleek"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "accounting-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "CW Business Solutions"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "aesthetic-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Clifford Clinic"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "aesthetic-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Freia Aesthetics"
+     ],
+     "times_first": 4,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "aesthetic-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "SL Aesthetic Clinic"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "aesthetic-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Aces Aesthetics"
+     ],
+     "times_first": 5,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "aesthetic-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Dr Cindy's Medical Aesthetics"
+     ],
+     "times_first": 6,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "aircon-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Twin City Air-Conditioning Engineering"
+     ],
+     "times_first": 7,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "aircon-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "SJR Air-Conditioned"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "aircon-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Helpling"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "aircon-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Affordable Aircon Services Pte Ltd"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "aircon-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Twin City Air-Conditioning Engineering"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "car-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Revol Carz Garage"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "car-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Revol Carz Garage"
+     ],
+     "times_first": 5,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "car-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Motorist Authorised Workshops"
+     ],
+     "times_first": 7,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "car-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Precise Auto Service"
+     ],
+     "times_first": 7,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "car-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Tampines Auto Services"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "dental-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Nuffield Dental"
+     ],
+     "times_first": 6,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "dental-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "TwinCity Endodontics"
+     ],
+     "times_first": 7,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "dental-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Advanced Dental"
+     ],
+     "times_first": 5,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "dental-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "B9 Dental Centre"
+     ],
+     "times_first": 5,
+     "different_first_picks": 4
+    },
+    {
+     "qid": "dental-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "TSD Dental Group Tampines"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "interior-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Three-D Conceptwerke"
+     ],
+     "times_first": 8,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "interior-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Three-D Conceptwerke"
+     ],
+     "times_first": 6,
+     "different_first_picks": 5
+    },
+    {
+     "qid": "interior-T3",
+     "answers_naming_a_business": 9,
+     "most_common_first_picks": [
+      "SG Interior Design"
+     ],
+     "times_first": 5,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "interior-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Yang's Inspiration Design"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "interior-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Forefront Interior"
+     ],
+     "times_first": 7,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "lawyer-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Allen & Gledhill"
+     ],
+     "times_first": 8,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "lawyer-T2",
+     "answers_naming_a_business": 9,
+     "most_common_first_picks": [
+      "Allen & Gledhill"
+     ],
+     "times_first": 9,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "lawyer-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "LSRA lawyer directory"
+     ],
+     "times_first": 3,
+     "different_first_picks": 6
+    },
+    {
+     "qid": "lawyer-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Pro Bono SG"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "lawyer-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "PKWA Law"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "maid-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Island Maids"
+     ],
+     "times_first": 6,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "maid-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Island Maids"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "maid-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "JForce Employment Service"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "maid-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Maid Avenue"
+     ],
+     "times_first": 8,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "maid-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Wonderful Helper Pte Ltd"
+     ],
+     "times_first": 8,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "movers-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Move Move Movers"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "movers-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Move Move Movers"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "movers-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Shalom Movers"
+     ],
+     "times_first": 6,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "movers-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Move Move Movers"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "movers-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Bull Movers"
+     ],
+     "times_first": 8,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "physio-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Core Concepts"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "physio-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "BMJ Physiotherapy"
+     ],
+     "times_first": 7,
+     "different_first_picks": 3
+    },
+    {
+     "qid": "physio-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "HelloPhysio"
+     ],
+     "times_first": 8,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "physio-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "NTUC Health"
+     ],
+     "times_first": 8,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "physio-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "SingHealth Polyclinics"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    },
+    {
+     "qid": "tuition-T1",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Learning Lab"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "tuition-T2",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Learning Lab"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "tuition-T3",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Learning Lab"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "tuition-T4",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "Kumon"
+     ],
+     "times_first": 10,
+     "different_first_picks": 1
+    },
+    {
+     "qid": "tuition-T5",
+     "answers_naming_a_business": 10,
+     "most_common_first_picks": [
+      "The Learning Lab"
+     ],
+     "times_first": 9,
+     "different_first_picks": 2
+    }
+   ]
+  }
+ },
+ "concentration": {
+  "mentions": 5941,
+  "top3_per_trade": 1443,
+  "top3_pct": 24.3,
+  "businesses": 911,
+  "named_in_one_answer": 364,
+  "named_once_pct": 40.0
+ },
+ "leaders": {
+  "accounting": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "Sleek",
+     "answers_naming": 45,
+     "openai": 8,
+     "perplexity": 37
+    },
+    {
+     "name": "PwC",
+     "answers_naming": 43,
+     "openai": 16,
+     "perplexity": 27
+    },
+    {
+     "name": "3E Accounting",
+     "answers_naming": 36,
+     "openai": 5,
+     "perplexity": 31
+    }
+   ]
+  },
+  "aesthetic": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "SL Aesthetic Clinic",
+     "answers_naming": 56,
+     "openai": 17,
+     "perplexity": 39
+    },
+    {
+     "name": "The Clifford Clinic",
+     "answers_naming": 47,
+     "openai": 17,
+     "perplexity": 30
+    },
+    {
+     "name": "V Medical Aesthetics & Laser Clinic",
+     "answers_naming": 29,
+     "openai": 2,
+     "perplexity": 27
+    }
+   ]
+  },
+  "aircon": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "SoCool",
+     "answers_naming": 42,
+     "openai": 22,
+     "perplexity": 20
+    },
+    {
+     "name": "Helpling",
+     "answers_naming": 38,
+     "openai": 5,
+     "perplexity": 33
+    },
+    {
+     "name": "Gain City",
+     "answers_naming": 37,
+     "openai": 0,
+     "perplexity": 37
+    }
+   ]
+  },
+  "car": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "1 Car Service",
+     "answers_naming": 52,
+     "openai": 30,
+     "perplexity": 22
+    },
+    {
+     "name": "Precise Auto Service",
+     "answers_naming": 32,
+     "openai": 10,
+     "perplexity": 22
+    },
+    {
+     "name": "Revol Carz Garage",
+     "answers_naming": 30,
+     "openai": 10,
+     "perplexity": 20
+    }
+   ]
+  },
+  "dental": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "National Dental Centre Singapore",
+     "answers_naming": 51,
+     "openai": 31,
+     "perplexity": 20
+    },
+    {
+     "name": "Nuffield Dental",
+     "answers_naming": 31,
+     "openai": 11,
+     "perplexity": 20
+    },
+    {
+     "name": "Advanced Dental",
+     "answers_naming": 23,
+     "openai": 3,
+     "perplexity": 20
+    }
+   ]
+  },
+  "interior": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "Space Atelier",
+     "answers_naming": 29,
+     "openai": 1,
+     "perplexity": 28
+    },
+    {
+     "name": "Dyel Design",
+     "answers_naming": 26,
+     "openai": 0,
+     "perplexity": 26
+    },
+    {
+     "name": "Fifth Avenue",
+     "answers_naming": 20,
+     "openai": 1,
+     "perplexity": 19
+    }
+   ]
+  },
+  "lawyer": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "Allen & Gledhill",
+     "answers_naming": 37,
+     "openai": 18,
+     "perplexity": 19
+    },
+    {
+     "name": "Legal Aid Bureau",
+     "answers_naming": 36,
+     "openai": 26,
+     "perplexity": 10
+    },
+    {
+     "name": "Pro Bono SG",
+     "answers_naming": 33,
+     "openai": 23,
+     "perplexity": 10
+    }
+   ]
+  },
+  "maid": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "Nation Maid Agency",
+     "answers_naming": 48,
+     "openai": 29,
+     "perplexity": 19
+    },
+    {
+     "name": "Island Maids",
+     "answers_naming": 45,
+     "openai": 18,
+     "perplexity": 27
+    },
+    {
+     "name": "Universal Employment Agency",
+     "answers_naming": 43,
+     "openai": 18,
+     "perplexity": 25
+    }
+   ]
+  },
+  "movers": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "Move Move Movers",
+     "answers_naming": 78,
+     "openai": 38,
+     "perplexity": 40
+    },
+    {
+     "name": "Cube Movers",
+     "answers_naming": 69,
+     "openai": 35,
+     "perplexity": 34
+    },
+    {
+     "name": "Shalom Movers",
+     "answers_naming": 49,
+     "openai": 19,
+     "perplexity": 30
+    }
+   ]
+  },
+  "physio": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "Singapore Physio",
+     "answers_naming": 71,
+     "openai": 31,
+     "perplexity": 40
+    },
+    {
+     "name": "Core Concepts",
+     "answers_naming": 61,
+     "openai": 25,
+     "perplexity": 36
+    },
+    {
+     "name": "NTUC Health",
+     "answers_naming": 39,
+     "openai": 20,
+     "perplexity": 19
+    }
+   ]
+  },
+  "tuition": {
+   "answers": 100,
+   "answers_by_engine": {
+    "openai": 50,
+    "perplexity": 50
+   },
+   "top": [
+    {
+     "name": "The Learning Lab",
+     "answers_naming": 76,
+     "openai": 36,
+     "perplexity": 40
+    },
+    {
+     "name": "Zenith Education Studio",
+     "answers_naming": 48,
+     "openai": 29,
+     "perplexity": 19
+    },
+    {
+     "name": "AGrader Learning Centre",
+     "answers_naming": 43,
+     "openai": 17,
+     "perplexity": 26
+    }
+   ]
+  }
+ },
+ "new_runs": {
+  "runs": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "answers": 770,
+  "expected": 770,
+  "first_sent_sgt": "2026-10-06 01:20:04",
+  "last_received_sgt": "2026-10-06 01:41:24",
+  "cost_usd": 12.02,
+  "models": {
+   "openai": [
+    "openai/gpt-5.6-luna"
+   ],
+   "perplexity": [
+    "perplexity/sonar"
+   ]
+  },
+  "citations": 9142,
+  "citations_not_labelled": 320,
+  "domains_not_labelled": 186
+ },
+ "map_pack": {
+  "businesses": 33,
+  "named_by_either": 19,
+  "named_by_openai": 14,
+  "named_by_perplexity": 15,
+  "never_named": 14,
+  "never_named_runs_1_to_3": 15,
+  "named_since_runs_1_to_3": [
+   {
+    "name": "M-Aesthetic Clinic",
+    "openai": 0,
+    "perplexity": 7
+   }
+  ],
+  "detail": [
+   {
+    "trade": "aircon",
+    "map_pack_business": "SoCool Pte Ltd - Aircon Servicing Singapore",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 10,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "aircon",
+    "map_pack_business": "Affordable Aircon Services Pte Ltd",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 5,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      1,
+      4,
+      6,
+      8,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "aircon",
+    "map_pack_business": "Newway Air Conditioning",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "dental",
+    "map_pack_business": "Ashford Dental Centre Thomson",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "dental",
+    "map_pack_business": "B9 Dental Centre (Toa Payoh)",
+    "named_by": [
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 0,
+     "perplexity": 9
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "dental",
+    "map_pack_business": "Denticare - Thomson",
+    "named_by": [
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 0,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "interior",
+    "map_pack_business": "Homevera Interior Design Singapore",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "interior",
+    "map_pack_business": "MyDesign Interiors Pte Ltd",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "interior",
+    "map_pack_business": "Flo Design Pte. Ltd.",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "movers",
+    "map_pack_business": "Soon Seng Transport & Movers Pte Ltd",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 9,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "movers",
+    "map_pack_business": "LS House Movers Singapore",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "movers",
+    "map_pack_business": "Cheap Movers Singapore - Office, House, Piano & Furniture",
+    "named_by": [
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 0,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "aesthetic",
+    "map_pack_business": "Become Aesthetics Clinic (Novena)",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 4,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      1,
+      3,
+      6,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "aesthetic",
+    "map_pack_business": "Dr D Aesthetics Medical Clinic",
+    "named_by": [
+     "openai"
+    ],
+    "answers": {
+     "openai": 3,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [
+      1,
+      6,
+      8
+     ],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "aesthetic",
+    "map_pack_business": "M-Aesthetic Clinic",
+    "named_by": [
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 0,
+     "perplexity": 7
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "physio",
+    "map_pack_business": "The Rehab Lab Plus",
+    "named_by": [
+     "openai"
+    ],
+    "answers": {
+     "openai": 5,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [
+      1,
+      2,
+      6,
+      9,
+      10
+     ],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "physio",
+    "map_pack_business": "Specialist Physio Jonathan, Central Singapore",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "physio",
+    "map_pack_business": "City Osteopathy and Physiotherapy @ Bukit Timah",
+    "named_by": [
+     "openai"
+    ],
+    "answers": {
+     "openai": 8,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10
+     ],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "tuition",
+    "map_pack_business": "New Dawn Learning Studio",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "tuition",
+    "map_pack_business": "EduFirst Learning Centre (Ang Mo Kio AMK)",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 4,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      1,
+      3,
+      5,
+      7
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "tuition",
+    "map_pack_business": "Kiasu Maths and Science Tuition Centre (Ang Mo Kio AMK)",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "maid",
+    "map_pack_business": "Ministry of Helpers",
+    "named_by": [
+     "openai"
+    ],
+    "answers": {
+     "openai": 1,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [
+      2
+     ],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "maid",
+    "map_pack_business": "Universal Employment Agency Pte Ltd",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 9,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "maid",
+    "map_pack_business": "Best Home Employment Agency (Thomson)",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 4,
+     "perplexity": 3
+    },
+    "runs": {
+     "openai": [
+      3,
+      6,
+      7,
+      10
+     ],
+     "perplexity": [
+      1,
+      3,
+      6
+     ]
+    }
+   },
+   {
+    "trade": "accounting",
+    "map_pack_business": "AG Singapore",
+    "named_by": [
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 0,
+     "perplexity": 6
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": [
+      2,
+      4,
+      5,
+      6,
+      8,
+      9
+     ]
+    }
+   },
+   {
+    "trade": "accounting",
+    "map_pack_business": "Koh Mgmt",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "accounting",
+    "map_pack_business": "One Accounting Services Singapore",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "lawyer",
+    "map_pack_business": "Tembusu Law LLC",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "lawyer",
+    "map_pack_business": "PKWA Law Practice LLC",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 10,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "lawyer",
+    "map_pack_business": "Regal Law LLC",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "car",
+    "map_pack_business": "1 Car Service",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 10,
+     "perplexity": 10
+    },
+    "runs": {
+     "openai": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+     ]
+    }
+   },
+   {
+    "trade": "car",
+    "map_pack_business": "Carro Care (Sin Ming) - Workshop",
+    "named_by": [],
+    "answers": {
+     "openai": 0,
+     "perplexity": 0
+    },
+    "runs": {
+     "openai": [],
+     "perplexity": []
+    }
+   },
+   {
+    "trade": "car",
+    "map_pack_business": "Garage R Performance Centre Pte Ltd",
+    "named_by": [
+     "openai",
+     "perplexity"
+    ],
+    "answers": {
+     "openai": 7,
+     "perplexity": 8
+    },
+    "runs": {
+     "openai": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10
+     ],
+     "perplexity": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+     ]
+    }
+   }
+  ],
+  "text_check": {
+   "never_named": 12,
+   "found_under_another_name": [
+    {
+     "name": "Ashford Dental Centre Thomson",
+     "named_as": "Emergency Dental by Ashford Dental",
+     "engines": [
+      "openai"
+     ],
+     "answers": 2,
+     "evidence": "Both answers cite emergencydental.sg, whose footer reads Ashford Dental Centre and whose address, 215 Upper Thomson Rd, Thomson Ridge, is Ashford Dental Centre Thomson's."
+    },
+    {
+     "name": "Koh Mgmt",
+     "named_as": "Koh Management",
+     "engines": [
+      "perplexity"
+     ],
+     "answers": 1,
+     "evidence": "The answer cites shkoh.com.sg, Koh Management Pte Ltd. Ahrefs' 6 Sep 2026 capture titles the map-pack listing 'Koh Mgmt | Affordable Corporate Secretarial Services Singapore | GST Bookkeeping Accounting Services'."
+    }
+   ],
+   "detail": [
+    {
+     "trade": "aircon",
+     "map_pack_business": "Newway Air Conditioning",
+     "pattern": "new\\s*-?\\s*way",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "dental",
+     "map_pack_business": "Ashford Dental Centre Thomson",
+     "pattern": "ashford",
+     "answers_searched": 100,
+     "hits": [
+      {
+       "engine": "openai",
+       "question_id": "dental-T3",
+       "run": 6,
+       "text": "Ashford",
+       "context": "e=openai)) - **Urgent dental problem:** Emergency Dental by Ashford Dental offers emergency services; for severe swelling, unco"
+      },
+      {
+       "engine": "openai",
+       "question_id": "dental-T3",
+       "run": 8,
+       "text": "Ashford",
+       "context": "tal/contact-us/?utm_source=openai)) - **Emergency Dental by Ashford Dental** Offers late-night emergency consultations, gen"
+      }
+     ],
+     "named_as": "Emergency Dental by Ashford Dental",
+     "same_business": true,
+     "evidence": "Both answers cite emergencydental.sg, whose footer reads Ashford Dental Centre and whose address, 215 Upper Thomson Rd, Thomson Ridge, is Ashford Dental Centre Thomson's."
+    },
+    {
+     "trade": "interior",
+     "map_pack_business": "Homevera Interior Design Singapore",
+     "pattern": "home\\s*vera",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "interior",
+     "map_pack_business": "MyDesign Interiors Pte Ltd",
+     "pattern": "my\\s*-?\\s*design",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "interior",
+     "map_pack_business": "Flo Design Pte. Ltd.",
+     "pattern": "\\bflo\\b|flo\\s*design",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "movers",
+     "map_pack_business": "LS House Movers Singapore",
+     "pattern": "\\bls\\b|l\\.\\s*s\\.",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "physio",
+     "map_pack_business": "Specialist Physio Jonathan, Central Singapore",
+     "pattern": "jonathan|specialist\\s*physio",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "tuition",
+     "map_pack_business": "New Dawn Learning Studio",
+     "pattern": "new\\s*dawn",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "tuition",
+     "map_pack_business": "Kiasu Maths and Science Tuition Centre (Ang Mo Kio AMK)",
+     "pattern": "kiasu",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "accounting",
+     "map_pack_business": "Koh Mgmt",
+     "pattern": "\\bkoh\\b",
+     "answers_searched": 100,
+     "hits": [
+      {
+       "engine": "perplexity",
+       "question_id": "accounting-T4",
+       "run": 4,
+       "text": "Koh",
+       "context": "mall to medium businesses looking for a local firm[9] | | **Koh Management** | Pricing not shown in the snippet, but market"
+      }
+     ],
+     "named_as": "Koh Management",
+     "same_business": true,
+     "evidence": "The answer cites shkoh.com.sg, Koh Management Pte Ltd. Ahrefs' 6 Sep 2026 capture titles the map-pack listing 'Koh Mgmt | Affordable Corporate Secretarial Services Singapore | GST Bookkeeping Accounting Services'."
+    },
+    {
+     "trade": "accounting",
+     "map_pack_business": "One Accounting Services Singapore",
+     "pattern": "one\\s*accounting",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "lawyer",
+     "map_pack_business": "Tembusu Law LLC",
+     "pattern": "tembusu",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "lawyer",
+     "map_pack_business": "Regal Law LLC",
+     "pattern": "regal",
+     "answers_searched": 100,
+     "hits": []
+    },
+    {
+     "trade": "car",
+     "map_pack_business": "Carro Care (Sin Ming) - Workshop",
+     "pattern": "carro",
+     "answers_searched": 100,
+     "hits": [
+      {
+       "engine": "openai",
+       "question_id": "car-T1",
+       "run": 2,
+       "text": "Carro",
+       "context": "g on your car: - **European cars:** **TEC AUTO Services**, Carros Centre — focuses on continental cars, diagnostics, servici"
+      },
+      {
+       "engine": "openai",
+       "question_id": "car-T2",
+       "run": 2,
+       "text": "Carro",
+       "context": ", diagnostics, engine work and ECU tuning. It operates from Carros Centre. ([tecauto.co](https://tecauto.co/services/?utm_sou"
+      },
+      {
+       "engine": "openai",
+       "question_id": "car-T2",
+       "run": 7,
+       "text": "Carro",
+       "context": "sg/about-us?utm_source=openai)) | | **TEC Auto Services** — Carros Centre | European-car servicing and performance work | A s"
+      }
+     ],
+     "named_as": "Carros Centre",
+     "same_business": false,
+     "evidence": "Carros Centre is a building that TEC Auto Services operates from (NOTES.md, 5 Oct 2026)."
+    }
+   ]
+  }
+ },
+ "example": {
+  "engine": "openai",
+  "question_id": "aircon-T1",
+  "question": "Can you recommend a good aircon servicing company in Singapore?",
+  "first_picks": [
+   {
+    "run": 1,
+    "name": "LM Brothers Aircond",
+    "as_written": "LM Brothers Aircond"
+   },
+   {
+    "run": 2,
+    "name": "338 Aircon",
+    "as_written": "338 Aircon"
+   },
+   {
+    "run": 3,
+    "name": "SoCool",
+    "as_written": "SoCool Pte Ltd"
+   },
+   {
+    "run": 4,
+    "name": "LM Brothers Aircond",
+    "as_written": "LM Brothers Aircond"
+   },
+   {
+    "run": 5,
+    "name": "Natural Cool",
+    "as_written": "Natural Cool"
+   },
+   {
+    "run": 6,
+    "name": "Cool Aircon",
+    "as_written": "Cool Aircon"
+   },
+   {
+    "run": 7,
+    "name": "Lion City Aircon",
+    "as_written": "Lion City Aircon"
+   },
+   {
+    "run": 8,
+    "name": "Lion City Aircon",
+    "as_written": "Lion City Aircon"
+   },
+   {
+    "run": 9,
+    "name": "SoCool",
+    "as_written": "SoCool Pte Ltd"
+   },
+   {
+    "run": 10,
+    "name": "338 Aircon",
+    "as_written": "338 Aircon"
+   }
+  ],
+  "different_first_picks": 6,
+  "most_common_count": 2
+ },
+ "first_pick_share_by_trade": {
+  "openai": {
+   "all_questions": {
+    "median": 0.5,
+    "questions": 54
+   },
+   "by_trade": {
+    "accounting": {
+     "median": 0.6,
+     "questions": 5
+    },
+    "aesthetic": {
+     "median": 0.4,
+     "questions": 5
+    },
+    "aircon": {
+     "median": 0.3,
+     "questions": 5
+    },
+    "car": {
+     "median": 0.5,
+     "questions": 5
+    },
+    "dental": {
+     "median": 0.3,
+     "questions": 5
+    },
+    "interior": {
+     "median": 0.3,
+     "questions": 5
+    },
+    "lawyer": {
+     "median": 0.625,
+     "questions": 5
+    },
+    "maid": {
+     "median": 0.3,
+     "questions": 4
+    },
+    "movers": {
+     "median": 0.6,
+     "questions": 5
+    },
+    "physio": {
+     "median": 0.5,
+     "questions": 5
+    },
+    "tuition": {
+     "median": 0.7,
+     "questions": 5
+    }
+   }
+  },
+  "perplexity": {
+   "all_questions": {
+    "median": 0.9,
+    "questions": 55
+   },
+   "by_trade": {
+    "accounting": {
+     "median": 0.9,
+     "questions": 5
+    },
+    "aesthetic": {
+     "median": 0.6,
+     "questions": 5
+    },
+    "aircon": {
+     "median": 1.0,
+     "questions": 5
+    },
+    "car": {
+     "median": 0.7,
+     "questions": 5
+    },
+    "dental": {
+     "median": 0.6,
+     "questions": 5
+    },
+    "interior": {
+     "median": 0.7,
+     "questions": 5
+    },
+    "lawyer": {
+     "median": 1.0,
+     "questions": 5
+    },
+    "maid": {
+     "median": 0.8,
+     "questions": 5
+    },
+    "movers": {
+     "median": 0.9,
+     "questions": 5
+    },
+    "physio": {
+     "median": 0.8,
+     "questions": 5
+    },
+    "tuition": {
+     "median": 1.0,
+     "questions": 5
+    }
+   }
+  }
+ },
+ "google_page_one_by_engine": {
+  "runs": [
+   1,
+   2,
+   3
+  ],
+  "openai": {
+   "n": 29,
+   "of": 338,
+   "pct": 8.6,
+   "by_trade": {
+    "accounting": {
+     "n": 2,
+     "of": 43,
+     "pct": 4.7
+    },
+    "aesthetic": {
+     "n": 0,
+     "of": 37,
+     "pct": 0.0
+    },
+    "aircon": {
+     "n": 1,
+     "of": 27,
+     "pct": 3.7
+    },
+    "car": {
+     "n": 4,
+     "of": 40,
+     "pct": 10.0
+    },
+    "dental": {
+     "n": 5,
+     "of": 30,
+     "pct": 16.7
+    },
+    "interior": {
+     "n": 2,
+     "of": 42,
+     "pct": 4.8
+    },
+    "lawyer": {
+     "n": 2,
+     "of": 21,
+     "pct": 9.5
+    },
+    "maid": {
+     "n": 1,
+     "of": 16,
+     "pct": 6.2
+    },
+    "movers": {
+     "n": 2,
+     "of": 25,
+     "pct": 8.0
+    },
+    "physio": {
+     "n": 6,
+     "of": 31,
+     "pct": 19.4
+    },
+    "tuition": {
+     "n": 4,
+     "of": 26,
+     "pct": 15.4
+    }
+   }
+  },
+  "perplexity": {
+   "n": 43,
+   "of": 445,
+   "pct": 9.7,
+   "by_trade": {
+    "accounting": {
+     "n": 1,
+     "of": 52,
+     "pct": 1.9
+    },
+    "aesthetic": {
+     "n": 2,
+     "of": 36,
+     "pct": 5.6
+    },
+    "aircon": {
+     "n": 6,
+     "of": 39,
+     "pct": 15.4
+    },
+    "car": {
+     "n": 4,
+     "of": 39,
+     "pct": 10.3
+    },
+    "dental": {
+     "n": 4,
+     "of": 43,
+     "pct": 9.3
+    },
+    "interior": {
+     "n": 4,
+     "of": 38,
+     "pct": 10.5
+    },
+    "lawyer": {
+     "n": 4,
+     "of": 33,
+     "pct": 12.1
+    },
+    "maid": {
+     "n": 6,
+     "of": 48,
+     "pct": 12.5
+    },
+    "movers": {
+     "n": 3,
+     "of": 46,
+     "pct": 6.5
+    },
+    "physio": {
+     "n": 4,
+     "of": 31,
+     "pct": 12.9
+    },
+    "tuition": {
+     "n": 5,
+     "of": 40,
+     "pct": 12.5
+    }
+   }
+  }
+ }
+}
